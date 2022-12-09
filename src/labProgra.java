@@ -6,8 +6,8 @@ import java.util.Scanner; //Libreria para scanear
 
 public class labProgra {
     public static void main(String[] args) {
-    //hacerEscalera();
-    //Sumar();
+    hacerEscalera();
+    Sumar();
     hacerCuadrado();
     }
     private static void hacerCuadrado() {
