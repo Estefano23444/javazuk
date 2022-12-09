@@ -12,8 +12,7 @@ public class GeneradorDePalabras {
             tmp = tempo.concat(origen.substring(i, i + 1));
             org = origen.substring(0, i);
             if (i < (origen.length() + 1))
-            org = org.concat(origen.substring(i + 1,
-            origen.length()));
+            org = org.concat(origen.substring(i + 1,origen.length()));
             generador(org, tmp, salida);
         }
     }
