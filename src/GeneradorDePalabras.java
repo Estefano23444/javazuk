@@ -1,6 +1,10 @@
 import java.util.LinkedList;
 import java.util.List;
-
+/**
+ *  import java.util.Scanner;
+ *  Scanner in = new Scanner(System.in);
+            input=in.nextInt();
+ */
 public class GeneradorDePalabras {
     private static void generador(String origen, String tempo, List<String> salida) {
         String tmp = new String(tempo), org = "";
